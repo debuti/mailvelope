@@ -50,7 +50,8 @@ var options = {};
         mvelo.appendTpl($('#importKey'), mvelo.extension.getURL('common/ui/keyring/tpl/importKey.html')),
         mvelo.appendTpl($('#exportsKey'), mvelo.extension.getURL('common/ui/keyring/tpl/exportKeys.html')),
         mvelo.appendTpl($('#setupProvider'), mvelo.extension.getURL('common/ui/keyring/tpl/setupProvider.html')),
-        mvelo.appendTpl($('#generateKey'), mvelo.extension.getURL('common/ui/keyring/tpl/generateKey.html'))
+        mvelo.appendTpl($('#generateKey'), mvelo.extension.getURL('common/ui/keyring/tpl/generateKey.html')),
+        mvelo.appendTpl($('#qrCode'), mvelo.extension.getURL('common/ui/settings/tpl/qrCode.html'))
       ]).then(initUI);
     });
   }
